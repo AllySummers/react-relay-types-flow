@@ -19,7 +19,6 @@ react-relay/lib/relay-hooks/ProfilerContext? [untyped-import]
 3) Run `yarn build` to compile the code with babel
 4) Run `yarn start` to run the built file with node, and you will see an error similar to the following:
 ```
-yarn run v1.22.19
 $ node dist/index.js
 node:internal/modules/cjs/loader:936
   throw err;
@@ -42,5 +41,4 @@ Require stack:
   requireStack: [ '~/flow-react-relay/dist/index.js' ]
 }
 error Command failed with exit code 1.
-info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
 ```
